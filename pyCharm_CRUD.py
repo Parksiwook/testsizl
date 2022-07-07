@@ -22,7 +22,7 @@ def result():
 
 
 def show_table():
-    sql = "show tables"
+    sql = "select * from student"
     cursor.execute(sql)
 
 
