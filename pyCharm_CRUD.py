@@ -8,7 +8,7 @@ cursor = conn.cursor()
 
 def create():
     sql = '''create table wook2 (id int(5) NOT NULL auto_increment primary key, name varchar(10),
-            record int(5))'''
+            record int(6))'''
     cursor.execute(sql)
 
 
